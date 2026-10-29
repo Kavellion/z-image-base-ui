@@ -1,0 +1,12 @@
+# Z-Image UI ignores
+# bundled-Python installed packages: created by install.bat inside
+# python_embeded, never shipped (the bundled Python itself ships)
+python_embeded/Lib/
+python_embeded/Scripts/
+# pictures: every run writes here, never shipped
+images_out/
+# Python bytecode
+__pycache__/
+*.pyc
+# release zips
+*.zip
